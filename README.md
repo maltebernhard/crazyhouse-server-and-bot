@@ -19,5 +19,24 @@ This repository implements the chess variant **Crazyhouse**, extending a generic
 
 This project serves as a **reference implementation**, showcasing the integration of object-oriented Java programming, functional Haskell programming, and software testing practices in the context of game server development.
 
-# Usage
-## TODO
+---
+
+## Getting Started
+
+### Prerequisites
+- **Java 11+** (JDK required)  
+- **Eclipse (J2EE Edition)** or any Java IDE  
+- **Apache Tomcat 9** (for running the server)  
+- **Haskell Platform** (for compiling and running the bot)  
+
+### Running the Server
+1. Import the project into Eclipse.  
+2. Deploy the project to Tomcat.  
+3. Start the server and open the GUI in a browser: 
+``http://localhost:8080/GameServer/Crazyhouse_Board.html``
+
+### Running the Bot
+1. Compile the bot in Haskell:  
+```bash
+ghc -o CrazyhouseBot CrazyhouseBot.hs
+```
